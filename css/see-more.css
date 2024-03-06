@@ -1,0 +1,36 @@
+
+.banner-img{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.banner-img .seemore-banner-circle{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(245, 227, 204, 0.263);
+    position: relative;
+    border-radius: 100%;
+    border: 18px solid #9a90c369;
+    outline: 2px solid rgba(225, 225, 225, 0.635);
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+      
+}
+
+.seemore-img1{
+    width: 130%;
+    height: 130%;
+    margin-top: -60px;
+    z-index: 20;
+    object-fit: cover;
+}
+
+.seemore-img2{
+    width: 140%;
+    height: 140%;
+    margin-top: -80px;
+    z-index: 20;
+    object-fit: cover;
+}

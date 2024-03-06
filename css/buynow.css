@@ -1,0 +1,139 @@
+.buynow-container {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buynow-container .buynow-img {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(212, 244, 234, 0.452);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buynow-container .buynow-form {
+    width: 55%;
+    height: 100%;
+    background-color: rgba(212, 244, 234, 0.452);
+    border-radius: 20px;
+    
+}
+
+.buynow-img::before {
+    content: "";
+    width: 370px;
+    height: 370px;
+    background-color: rgba(149, 224, 211, 0.906);
+    position: absolute;
+    border-radius: 100%;
+    filter: blur(50px);
+
+}
+
+.buynow-img img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 99;
+}
+
+.buynow-form h1{
+    font-size: 40px;
+    color: rgb(35, 35, 68);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.buynow-form-section1{
+    width: 95%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.buynow-form-email{
+    width: 48%;
+    height: 100%;   
+}
+
+.buynow-form-email img{
+    width: 65px;
+    height: 40px;
+    margin-top: 5px;
+}
+form{
+    font-size: 20px;
+    color: rgb(35, 35, 68);
+    font-weight: bold;
+    
+}
+
+input{
+    width: 97%;
+    height: 60%;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #d3d0ca27;
+    padding-left: 10px;
+    margin-top: 7px;
+    font-family: Berlin Sans FB!important;
+
+}
+
+.buynow-country{
+    width: 45.8%;
+    height: 100%;
+    float: left;
+    margin-right: 25px;
+}
+
+.buynow-btn-submit{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-submit{
+    width: 100px;
+    height: 40px;
+    background-color: darkblue;
+    float: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;  
+    font-weight: bold;  
+    transition: 0.3s;
+    border: 0px;
+    font-size: 18px;
+  
+}
+.btn-submit:hover{
+    background-color: rgb(7, 7, 96);
+}
+
+hr{
+    width: 90px;
+    height: 3px;
+    background-color: rgb(35, 35, 68);
+    margin: auto;
+    margin-bottom: 20px;
+}
